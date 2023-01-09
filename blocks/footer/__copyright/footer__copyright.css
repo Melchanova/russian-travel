@@ -12,25 +12,9 @@
         font-size: 14px;
         line-height: 16px;
     }
+
 }
-@media screen and (max-width: 565px) {
-    .footer__copyright {
-        padding-top: 48px;
-        margin-left: 16px;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        }
-    } 
-@media screen and (max-width: 470px) {
-    .footer__copyright {
-        padding-top: 48px;
-        margin-left: 16px;
-        display: flex;
-        text-align: left;
-    }
-}    
-@media (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__copyright {
         padding-top: 48px;
         margin-left: 16px;
