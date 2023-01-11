@@ -7,8 +7,6 @@
     margin: 0 auto;
     background-position: center;
     height: 100%;
-    max-width: 1184px;
-    
 }
 .cover:before {
     content: '';
