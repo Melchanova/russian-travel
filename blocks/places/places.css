@@ -16,7 +16,7 @@ max-width: 984px;
         margin-right: 24px;
     }
 }
-@media screen and (man-width: 767px) {
+@media screen and (max-width: 767px) {
     .places {
         margin-left: 16px;
         margin-right: 16px;
