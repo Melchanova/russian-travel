@@ -1,6 +1,6 @@
 .cover {
     background-image: url(../../images/background.jpg);
-    background-size: cover; 
+    background-size: cover;
     position: relative;
     max-width: 1184px;
     height: 100%;
@@ -12,7 +12,6 @@
     display: block;
     z-index: 1;
 } 
-
 .cover:before {
     content: '';
     display: block;
@@ -24,12 +23,11 @@
     background-color: #2a2c2f;
     opacity: 0.3;
     transition: opacity 0.4s ease;
-} 
+}
 .cover:hover:before {
     opacity: 0.8;
 }
 @media screen and (max-width: 1023px) {
-
     .cover {
         max-width: 100%;
         padding-top: 195px;
