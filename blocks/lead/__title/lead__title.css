@@ -6,17 +6,17 @@
   margin: 56px auto 0;
   text-align: center;
 }
-
 @media screen and (max-width: 1279px) {
   .lead__title {
     margin-top: 48px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: 57px;
     line-height: 72px;
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
 @media screen and (max-width: 500px) {

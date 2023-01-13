@@ -7,14 +7,15 @@
     padding-top: 28px;
     margin: 0 48px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .header {
         margin: 0 24px;
     }
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 320px) {
     .header {
         padding-top: 16px;
         margin: 0 16px;
+        max-width: 288px;
     }
 }
