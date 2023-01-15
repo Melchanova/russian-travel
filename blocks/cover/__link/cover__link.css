@@ -14,10 +14,8 @@
     bottom: 0;
     background: #2A2C2F;
     opacity: .3;
-    transition: opacity .3s ease;
+    transition: .3s ease;
     z-index: -1;
-    transition: .4s;
-    
 }
 .cover__link:hover:before {
     opacity: 0.8;
