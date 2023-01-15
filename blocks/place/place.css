@@ -23,12 +23,12 @@
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: minmax(min-content, 330px) 1fr;
-        padding-bottom: 50px;
-        gap: 32px 0;
+        padding-bottom: 46px;
+        gap: 33px;
     }
 }
 @media screen and (max-width: 600px) {
     .place {
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     }
 }

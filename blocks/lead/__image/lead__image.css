@@ -1,6 +1,7 @@
 .lead__image {
-    max-width: 100%;
     object-position: center;
     object-fit: cover;
-    box-sizing: border-box;
+    display: block;
+    margin: 0 0 8px;
+    width: 100%;
 }
