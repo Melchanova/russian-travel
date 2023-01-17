@@ -11,14 +11,23 @@
     padding-bottom: 32px;
     z-index: 5;
 }
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 690px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: 67px;
+        line-height: 69px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .cover__title { 
-        max-width: 250px;
+        font-size: 60px;
+        line-height: 59px;
+        padding-bottom: 16px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .cover__title { 
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 265px;
     }
 }
